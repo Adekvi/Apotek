@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('tblbelis', function (Blueprint $table) {
-            $table->id('id_beli');
+            $table->id();
             $table->text('nota_beli')->nullable();
             $table->date('tgl_beli')->nullable();
             $table->string('modal_beli')->nullable();
@@ -22,7 +22,7 @@ return new class extends Migration
             $table->integer('harga_beli')->nullable();
             $table->decimal('total_bayar', 10, 2)->nullable();
             $table->integer('jumlah_bayar')->nullable();
-            $table->string('pajakcolumn: ')->nullable();
+            $table->string('pajak')->nullable();
             $table->string('status_bayar')->nullable();
             $table->decimal('hutang', 10, 2)->nullable();
             $table->text('bukti_pajak')->nullable();
