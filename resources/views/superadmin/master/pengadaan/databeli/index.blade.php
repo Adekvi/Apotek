@@ -1,3 +1,9 @@
-<div>
-    <!-- No surplus words or unnecessary actions. - Marcus Aurelius -->
-</div>
+<x.primer.layout-index tittle="Superadmin | Master Data Beli">
+
+</x.primer.layout-index>
+
+@push('css')
+@endpush
+
+@push('js')
+@endpush

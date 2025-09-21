@@ -1,3 +1,9 @@
-<div>
-    <!-- I begin to speak only when I am certain what I will say is not better left unsaid. - Cato the Younger -->
-</div>
+<x.primer.layout-index tittle="Superadmin | Master Data Supplier">
+
+</x.primer.layout-index>
+
+@push('css')
+@endpush
+
+@push('js')
+@endpush
